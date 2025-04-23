@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ## Report Bugs
 
-Report bugs at https://github.com/ai-zerolab/pymupdf4llm-mcp/issues
+Report bugs at https://github.com/pymupdf/pymupdf4llm-mcp/issues
 
 If you are reporting a bug, please include:
 
@@ -33,7 +33,7 @@ pymupdf4llm-mcp could always use more documentation, whether as part of the offi
 
 ## Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/ai-zerolab/pymupdf4llm-mcp/issues.
+The best way to send feedback is to file an issue at https://github.com/pymupdf/pymupdf4llm-mcp/issues.
 
 If you are proposing a new feature:
 

@@ -82,7 +82,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ai-zerolab
+          username: pymupdf
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push image
         id: docker_build_publish
@@ -95,8 +95,8 @@ jobs:
             file: ./Dockerfile
             push: true
             tags: |
-              ghcr.io/ai-zerolab/pymupdf4llm-mcp:${{ steps.vars.outputs.tag }}
-              ghcr.io/ai-zerolab/pymupdf4llm-mcp:latest
+              ghcr.io/pymupdf/pymupdf4llm-mcp:${{ steps.vars.outputs.tag }}
+              ghcr.io/pymupdf/pymupdf4llm-mcp:latest
 
   deploy-docs:
     needs: publish
