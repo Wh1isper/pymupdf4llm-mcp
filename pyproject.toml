@@ -24,9 +24,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://ai-zerolab.github.io/pymupdf4llm-mcp/"
-Repository = "https://github.com/pymupdf/pymupdf4llm-mcp"
-Documentation = "https://pymupdf.github.io/pymupdf4llm-mcp/"
+Homepage = "https://github.com/pymupdf/pymupdf4llm-mcp/"
+Repository = "https://github.com/pymupdf/pymupdf4llm-mcp/"
+Documentation = "https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/"
 
 [dependency-groups]
 dev = [
